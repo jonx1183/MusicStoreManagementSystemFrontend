@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fetch albums</title>
+</head>
+<body>
+
+<h1>Album creator</h1>
+<form id="album-form">
+    <label for="title">Title:</label>
+    <input type="text" id="title" name="title"><br>
+    <label for="artist">Artist:</label>
+    <input type="text" id="artist" name="artist"><br>
+    <label for="genre">Genre:</label>
+    <input type="text" id="genre" name="genre"><br>
+    <label for="availability">Availability:</label>
+    <input type="text" id="availability" name="availability"><br>
+    <label for="store">Store:</label>
+    <input type="text" id="store" name="store"><br>
+
+    <button type="submit" id="submit-btn"> add album</button>
+</form>
+
+<h1>Album list</h1>
+
+<table>
+    <thead>
+    <tr>
+        <th>Id</th>
+        <th>Title</th>
+        <th>Artist</th>
+        <th>Genre</th>
+        <th>Availability</th>
+        <th>Store</th>
+    </tr>
+    </thead>
+    <tbody id="album-list">
+
+    </tbody>
+</table>
+
+<script src="Js/FetchAny.js"></script>
+<script src="Js/AlbumTable.js"></script>
+
+</body>
+</html>
